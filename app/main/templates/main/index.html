@@ -1,0 +1,58 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+
+{% block content %}
+    <!-- Контент. В h11 и img загрузить текст и картинку -->
+    <section>
+        <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <h1>Welcome...</h1>
+              </div>
+              <div class="col">
+                <img class="w-100" src=".." alt="..">
+              </div>
+            </div>
+    </section>
+    <!-- Добавить картинки  и текст к ним-->
+    <section>
+        <div class="container text-center">
+            <h2>Bestsellers</h2>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src=".." class="card-img-top" alt="..">
+                        <div class="card-body">
+                          <h33 class="card-title">Card title</h33>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Buy now</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h44 class="card-title">Card title</h44>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Buy now</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h55 class="card-title">Card title</h55>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Buy now</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+{% endblock content %}
