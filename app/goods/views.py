@@ -29,7 +29,7 @@ def catalog(request, category_slug=None):
     
     
     context = {
-        "title": "Home - Каталог",
+        "title": "Oasiss - Catalog",
         "goods": current_page,
         "slug_url": category_slug,
     }
